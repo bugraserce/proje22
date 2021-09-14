@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CTIS255-MT1</title>
+    <meta charset="UTF-8">
+   <style>
+
+html, body, h1, h2, h3, div, p, img, a, table, td, tr {
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Century Gothic";
+    color: #333;
+}
+
+a {  text-decoration: none; color: inherit; }
+h1 { font-size: 2em; }
+
+div.sections { padding: 2em 5em;}
+
+
+/* HEADER PART */
+#exmachina {
+   color: black;
+   font-size: 2em;
+   font-weight: bold;
+   float: left;
+}
+
+#nav {
+    text-align: right;
+}
+
+.buttonStyle {
+    background: #e95d3c;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+#nav a { 
+    margin: 0 1em;
+    line-height: 1.5em;
+    display: inline-block;
+    padding: 10px ; 
+}
+
+/* BANNER */
+#banner {
+    height: 250px;
+    background: url(images/banner.jpg) ;
+    background-size: cover;
+}
+
+/* LEFT PANEL */
+#leftPanel {
+    width: 450px;
+    float: left;
+    margin: 2em 5em;
+    margin-right: 1em;
+    border-right: 1px solid #999;
+    padding-right: 1em;
+}
+
+#leftPanel h2 {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+#leftPanel p {
+    font-size: 0.8em;
+    line-height: 1.8;
+    margin-bottom: 2em;
+}
+
+.imp {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.bold { font-weight: bold;}
+
+/* RIGHT PANEL */
+#rightPanel {
+    float: right;
+    width: 600px;
+    margin: 2em 5em;
+    margin-left: 0;
+}
+
+#rightPanel table {
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+td, th {
+    padding: 5px 15px;
+    border:1px solid #BDCACE;
+    text-align: center;
+}
+
+.firstRow {
+    background: #CFE7B3;
+    color: #7D9561;
+}
+
+.odd {
+    background: #F0F9E4;
+}
+
+td:nth-of-type(3) {
+    font-weight: bold;
+    text-align: center;
+}
+
+table td div {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.firstCol {
+    text-align: left;
+    width: 200px;
+}
+
+   </style>
+
+  </head>
+  <body>
+      <!--HEADER-->
+    <div id="header" class="sections">
+        <a href="#" id="exmachina">EX MACHINA</a>
+        <div id="nav">
+            <a href="#" class="buttonStyle">HOMEPAGE</a>
+            <a href="#">LEFT SIDEBAR</a>
+            <a href="#">RIGHT SIDEBAR</a>
+            <a href="#">NO SIDEBAR</a>
+        </div>
+    </div>
+     
+    <!--BANNER-->
+    <div id="banner"></div>
+    
+    <!--LEFT PANEL-->
+    <div id="leftPanel">
+        <h1>LEFT PANEL CONTENT</h1>
+        <h2>HEADING 2 FOR THE LEFT PANEL</h2>
+        <p>
+            This is <span class="bold">Ex Machina</span>, a responsive HTML5 site template freebie
+            by <span class="imp">TEMPLATED</span>. Released for free under the 
+            <span class="imp">Creative Commons Attribution</span> license, 
+            so use it for whatever (personal or commercial) – 
+            just give us credit! Check out more of our stuff at 
+            our site or follow us on <span class="imp">Twitter</span>.
+        </p>
+        <div class="buttonStyle">MORE DETAILS</div>
+    </div>
+    
+    <!--RIGHT PANEL-->
+    <div id="rightPanel">
+        <h1>TABULAR DATA</h1>
+       <table>
+          <tr class='firstRow'>
+              <th><input type="checkbox" ></th>
+              <th class='firstCol'>Campaigns</th>
+              <th>Recipients</th>
+              <th>Opens</th>
+              <th>Clicks</th>
+              <th>View Report</th>
+          </tr>
+          <tr >
+              <td><input type="checkbox" ></td>
+              <td class='firstCol'>AU Squeez Warm<div>Sent on 11 Jun 2015, 13:00</div></td>
+              <td>1346</td>
+              <td>233<div>(17.51%)</td>
+              <td>58<div>(4.36%)</td>
+              <td><img src='images/report.png'></td>
+          </tr>
+          <tr class='odd'>
+              <td><input type="checkbox" ></td>
+              <td class='firstCol'>AU Squeez Warm<div>Sent on 11 Jun 2015, 13:00</div></td>
+              <td>1346</td>
+              <td>233<div>(17.51%)</td>
+              <td>58<div>(4.36%)</td>
+              <td><img src='images/report.png'></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" ></td>
+              <td class='firstCol'>AU Squeez Warm<div>Sent on 11 Jun 2015, 13:00</div></td>
+              <td>1346</td>
+              <td>233<div>(17.51%)</td>
+              <td>58<div>(4.36%)</td>
+              <td><img src='images/report.png'></td>
+          </tr>
+          <tr class='odd'>
+              <td><input type="checkbox" ></td>
+              <td class='firstCol'>AU Squeez Warm<div>Sent on 11 Jun 2015, 13:00</div></td>
+              <td>1346</td>
+              <td>233<div>(17.51%)</td>
+              <td>58<div>(4.36%)</td>
+              <td><img src='images/report.png'></td>
+          </tr>
+      </table>
+        <div class='buttonStyle'>TABLE DETAILS</div>
+    </div>
+  </body>
+</html>

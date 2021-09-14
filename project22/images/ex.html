@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{margin: 0; padding: 0;}
+
+        body {
+            font-weight: normal;
+           font-family: "Century Gothic";
+            color: #333;
+        }
+        
+
+
+        #exmachine {
+            font-size: 2em;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 2em;
+
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+       
+
+        #nav {
+             text-align: right;
+
+        }
+
+        #nav a {
+
+            display:inline-block;
+            margin: 0em 1em;
+            padding: 10px;            
+            line-height: 1.5em;
+
+        }   
+       
+        #header {
+
+            padding: 2em 5em;
+
+        }
+
+    #homepage {
+        border: 1px solid white;
+        border-radius: 5px;
+        background: #e95d3c;
+        color: white;
+
+
+    }
+
+    #banner {
+        background-image: url(./banner.jpg);
+         height: 250px;
+         background-size: cover;
+
+
+    }
+
+    #left {
+
+        margin-left: 5em;
+        margin-top: 1em;
+        margin-right: 1em;
+        border-right: 1px solid #999;
+        padding-right: 1em;
+        float: left;
+        width: 450px;
+
+    }
+
+    #left p {
+
+        font-size: 0.8em;
+        line-height: 1.8;
+        margin-bottom: 2em;
+
+    }
+
+    #left h2 {
+
+        font-size: 1em;
+        margin-bottom: 2em;
+
+    }
+
+
+    span.redunderline {
+
+        text-decoration: underline;
+        color: red;
+
+    }
+    
+    span.bold {
+        
+        font-weight: bold;
+
+    }
+
+    .moredetails {
+
+        background: #e95d3c;
+        border: 1px solid white;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 5px 15px;
+        color: white;
+    }
+
+
+    #right {
+
+        margin-top: 2em;
+        margin-left: 5em;
+        float:right;
+
+    }
+
+    #table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 12px;
+            margin: 2em;
+
+    }
+
+   .row {
+    background: #f0f9e4;
+
+   }
+
+    
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+        <div id="header">
+
+            <a href="#" id="exmachine">EX MACHINA</a>
+
+            <div id="nav">
+                <a href="#" id="homepage">HOMEPAGE</a>
+                <a href="#">LEFTSIDE BAR</a>
+                <a href="#">RIGHTSIDE BAR</a>
+                <a href="#">NO SIDERBAR</a>
+
+            </div>
+
+
+
+
+        </div>
+    
+
+
+        <div id="banner"></div>
+        
+        
+
+        <div id="left">
+
+            <h1>LEFT PANEL CONTENT</h1>
+            <h2>HEADING 2 FOR THE LEFT PANEL</h2>            
+            <p>This is <span class="bold">Ex Machina</span>, a responsive HTML5 site template freebie by <span class="redunderline">TEMPLATED</span>. Released for free under the <span class="redunderline">Commons Attribution</span> license, so use it for whatever (personal or commercial) – just give us credit! Check out more of our stuff at our site or follow us on <span>Twitter.</span> </p>
+
+            <div class="moredetails">
+                MORE DETAILS
+            </div>
+
+        </div>
+
+        <div id="right">
+
+            <h1>TABULAR DATA</h1>
+
+            <table id="table">
+
+                <tr class="firstrow">
+                    <th> <input type="checkbox"></th>
+                    <th> Campaigns</th>
+                    <th> Recipients</th>
+                    <th>Opens</th>
+                    <th>Clicks</th>
+                    <th>Wiev Report</th>
+                </tr>
+            
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td class="firstcol">AU Squeez Warm
+                       <div> Sent on 11 Jun 2015, 13:00 </div></td>   
+                    <td>1346</td>
+                    <td>233 <div>(17.51%)</div></td>
+                    <td>58 <div>(4.36%)</div></td>
+                    <td> <img src="./report.png" title="report"> </td>
+
+                </tr>
+                <tr class="row">
+                    <td> <input type="checkbox"></td>
+                    <td>AU Squeez Warm
+                       <div>Sent on 11 Jun 2015, 13:00 </div></td>   
+                    <td>1346</td>
+                    <td>233 <div>(17.51%)</div></td>
+                    <td>58 <div>(4.36%)</div></td>
+                    <td> <img src="./report.png" title="report"> </td>
+
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td class="firstcol">AU Squeez Warm
+                       <div> Sent on 11 Jun 2015, 13:00 </div></td>   
+                    <td>1346</td>
+                    <td>233 <div>(17.51%)</div></td>
+                    <td>58 <div>(4.36%)</div></td>
+                    <td> <img src="./report.png" title="report"> </td>
+
+                </tr>
+                <tr class="row">
+                    <td> <input type="checkbox"></td>
+                    <td>AU Squeez Warm
+                        <div>Sent on 11 Jun 2015, 13:00 </div></td>   
+                    <td>1346</td>
+                    <td>233 <div>(17.51%)</div></td>
+                    <td>58 <div>(4.36%)</div></td>
+                    <td> <img src="./report.png" title="report"> </td>
+
+                </tr>
+
+
+
+            </table>
+
+
+
+
+
+        </div>
+
+
+
+
+</body>
+</html>
